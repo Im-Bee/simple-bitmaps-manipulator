@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/ShenanigansWithBitmaps
+/Bin64/Debug/ShenanigansWithBitmaps
+/Obj64/Debug/ShenanigansWithBitmaps
+/ShenanigansWithBitmaps/test.bmp
+/Obj64/Release/ShenanigansWithBitmaps
+/Bin64/Release/ShenanigansWithBitmaps
+/Bin64/Debug/LUL_Profiler
+/Obj64/Debug/LUL_Profiler
+/.vs/Shenanigans-with-bitmaps/v17
+/.vs

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Private">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Public">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Public\EntryPoint">
+      <UniqueIdentifier>{bb24cfc3-4fd4-4ca7-8b92-eda25bc97abc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public\EntryPoint\Win32">
+      <UniqueIdentifier>{91b141d7-abeb-4612-bc61-33b69c3fbc8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public\Core">
+      <UniqueIdentifier>{65e9c158-c97c-4294-85ff-a4d502aa5465}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private\Core">
+      <UniqueIdentifier>{35bfe8fb-c6c0-42f7-8e54-32c8651a4db5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pch">
+      <UniqueIdentifier>{11e99f20-f686-4fa1-be03-a1a4524f0c6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private\EntryPoint">
+      <UniqueIdentifier>{8bbc5d17-ac1a-407b-80f0-ae53e4dbbbc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private\EntryPoint\Win32">
+      <UniqueIdentifier>{cf8b5fce-96ea-45b0-b4e2-bf17a8d4cace}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Core\Application.hpp">
+      <Filter>Public\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Pch.h">
+      <Filter>Pch</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EntryPoint\Win32\Entry.h">
+      <Filter>Public\EntryPoint\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Bitmap.hpp">
+      <Filter>Public\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\HexEditor.hpp">
+      <Filter>Public\Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Core\Application.cpp">
+      <Filter>Private\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pch.cpp">
+      <Filter>Pch</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EntryPoint\Win32\Entry.cpp">
+      <Filter>Private\EntryPoint\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Bitmap.cpp">
+      <Filter>Private\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\HexEditor.cpp">
+      <Filter>Private\Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
